@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 2</title>
+  <link rel ="stylesheet" type="text/css" href="index.css">
+  <link rel ="stylesheet" type="text/css" href="project3.css">
+   
+    <script src="project3.js"></script>
+</head>
+    <div id="clockContainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+</head>
+<body>
+  <header>
+    <img  src = "C:\Users\uchej\Documents\GitHub\myweb\UchemUJ.png">
+   <h1>Uchem Johnfisher - Software Programming Portfolio</h1>
+   
+   <nav class = "navbar">
+     <ul>
+     <li><a href="index.html">Home Page</a></li>
+    <li><a href="file:///C:/Users/uchej/Documents/GitHub/JIMS_Presentation/home.html" target="_blank">Inventory Mgmt. App. Project</a></li> 
+     <li><a href="ajaxprojects.html" target="_blank">Ajax Apts. Mgmt. App. Project</a></li>
+     
+     </ul>
+   </nav>
+ </header>
+
+ <h2>My JavaScript Playground</h2>
+
+<div id="currentTime"></div>
+    <script>
+      const element = document.getElementById('currentTime');
+      
+      setInterval(function () {
+        const currentDate = new Date();
+        element.innerText = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
+      }, 1000);
+    </script>
+  
+<div class="text1">
+
+<div id="p1">
+ <p>Vending Machine</p>
+<button onclick="chooseDrink()">Buy drinks</button>
+</div>
+
+<div id="p2">
+ <p>Use Calculator</p>
+<button onclick="useCalculator()">Calculator</button>
+</div>
+
+<div id="p3">
+ <p>Manage Account.</p>
+<button  onclick="accountTransactions() ">Rent Payment</button>
+</div>
+
+<div id="p4">
+ <p>Even/Odd Number Game</p>
+<button  onclick="isOddOrEvenNumber()">Play Game</button>
+</div>
+
+<div id="p5">
+ <p>Temprature Converter</p>
+<button onclick="tempConversion()">Convert</button>
+</div>
+
+</div>
+
+<br>
+<button id="show-image-button">Next Movie Preview</button>
+   <img id="my-image" src= "C:\Users\uchej\Documents\GitHub\myweb\GIrlUnderRain.gif" >
+   <script>
+      const showImageButton = document.getElementById("show-image-button");
+      const myImage = document.getElementById("my-image"); 
+      showImageButton.addEventListener("click", () => { 
+         myImage.style.display = "block"; 
+      });
+   </script>
+  
+
+   
+</body>
+</html>  
+
+
+
+
