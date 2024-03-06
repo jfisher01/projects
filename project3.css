@@ -124,8 +124,8 @@ button:hover{
 	margin-left: 46%;
 	}
 
-img{
-    display: none; 
+#my-image{
+        display: none; 
 	width: 600px; 
 	height: 700px; 
 	}
