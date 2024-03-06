@@ -1,6 +1,6 @@
 
 body{
-      font-family: Arial;
+      font-family: Arial, serif, Times New Roman;
       background-color: #FAEBD7;
       margin: 0;
   
@@ -18,7 +18,7 @@ header{
 
   img{
       display:inline-block;
-      background-image:url("C:\Users\uchej\Desktop\MyProgramming Languages\Udemy\Web_Development\WebDevFolder\my_professional_portfolio\businessoffice.jpg ") ;
+      background-image:url("businessoffice.jpg ") ;
       width: 100%;
       height:400px;
 
